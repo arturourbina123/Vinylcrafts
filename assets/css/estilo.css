@@ -1,0 +1,14 @@
+/*
+ * Este archivo contiene los estilos globales de la página.
+ * Los estilos específicos de componentes están definidos principalmente
+ * con las clases de utilidad de Tailwind CSS directamente en el HTML.
+ */
+
+body {
+    /* Define la familia de fuente para toda la página */
+    font-family: 'Inter', sans-serif;
+    /* Establece un color de fondo oscuro */
+    background-color: #0d0d0d;
+    /* Establece un color de texto claro */
+    color: #f0f0f0;
+}
