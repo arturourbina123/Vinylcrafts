@@ -203,16 +203,21 @@
                 </p>
                 
                 <div class="mt-12 max-w-2xl mx-auto bg-[#1a1a1a] p-8 rounded-xl shadow-lg">
-                    <form action="https://formspree.io/f/mrbljevv" method="POST" class="space-y-6">
-                        <input type="hidden" name="_next" value="https://arturourbina123.github.io/Vinylcrafts/email.html">
+                    <form action="https://api.staticforms.xyz/submit" method="POST" class="space-y-6">
+                        <input type="hidden" name="accessKey" value="sf_ek2he5k429ggna1k9a9d4l4d"> 
+                        
+                        <input type="hidden" name="redirectTo" value="https://arturourbina123.github.io/Vinylcrafts/email.html">
+                        
                         <div>
                             <label for="name" class="block text-sm font-medium text-gray-300">Nombre</label>
                             <input type="text" id="name" name="name" class="mt-1 block w-full rounded-md bg-[#2a2a2a] border-gray-600 text-white shadow-sm focus:border-cyan-500 focus:ring-cyan-500 p-2">
                         </div>
+                        
                         <div>
                             <label for="email" class="block text-sm font-medium text-gray-300">Correo Electrónico</label>
                             <input type="email" id="email" name="email" class="mt-1 block w-full rounded-md bg-[#2a2a2a] border-gray-600 text-white shadow-sm focus:border-cyan-500 focus:ring-cyan-500 p-2">
                         </div>
+                        
                         <div>
                             <label for="message" class="block text-sm font-medium text-gray-300">Mensaje</label>
                             <textarea id="message" name="message" rows="4" class="mt-1 block w-full rounded-md bg-[#2a2a2a] border-gray-600 text-white shadow-sm focus:border-cyan-500 focus:ring-cyan-500 p-2"></textarea>
