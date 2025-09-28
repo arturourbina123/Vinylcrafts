@@ -12,3 +12,34 @@ body {
     /* Establece un color de texto claro */
     color: #f0f0f0;
 }
+
+/*
+ * Este archivo contiene los estilos globales de la página.
+ * Los estilos específicos de componentes están definidos principalmente
+ * con las clases de utilidad de Tailwind CSS directamente en el HTML.
+ */
+
+body {
+    /* Define la familia de fuente para toda la página */
+    font-family: 'Inter', sans-serif;
+    /* Establece un color de fondo oscuro */
+    background-color: #0d0d0d;
+    /* Establece un color de texto claro */
+    color: #f0f0f0;
+}
+
+/* --- ESTILOS PARA EL CARRUSEL DE NOVEDADES (AÑADIDO) --- */
+.carousel-item {
+    /* Oculta los elementos por defecto */
+    display: none; 
+    opacity: 0;
+    /* Asegura que elementos invisibles no interfieran con clics */
+    pointer-events: none; 
+}
+
+.carousel-item.active {
+    /* Muestra el elemento activo y permite centrar su contenido */
+    display: flex; 
+    opacity: 1;
+    pointer-events: auto;
+}
